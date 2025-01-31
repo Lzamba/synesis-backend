@@ -1,9 +1,9 @@
 {
   "name": "synesisgnosis",
   "version": "1.0.0",
-  "main": "app.js",  // Se o arquivo principal for "app.js", deixe assim
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js",  // Comando de start correto
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
     "express": "^4.21.2"
   }
 }
+
 
 
 
