@@ -1,0 +1,67 @@
+/* 🎨 ESTILO GERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #00bcd4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
+    display: none;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.iniciar {
+    background-color: #00bcd4;
+    color: white;
+}
+
+.avancar {
+    background-color: #007BFF;
+    color: white;
+}
+
+.reiniciar {
+    background-color: #ff5722;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+#semaforo {
+    font-size: 24px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
