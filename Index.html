@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SynesisGnosis | Teste de Inteligência</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Tela Inicial -->
+    <div id="telaInicial" class="container">
+        <img src="logo.png" alt="Logo SynesisGnosis" class="logo">
+        <h1>🧠 Bem-vindo ao SynesisGnosis!</h1>
+        <p>Teste sua inteligência, memória e cognição com desafios interativos!</p>
+        <label for="idade">Insira sua idade:</label>
+        <input type="number" id="idade" min="5" max="99">
+        <button class="btn iniciar" onclick="iniciarTriagem()">🚀 Iniciar Teste</button>
+    </div>
+
+    <!-- Tela de Testes -->
+    <div id="telaTeste" class="container hidden">
+        <h2 id="tituloTeste">Teste de Memória</h2>
+        <p id="enunciadoTeste"></p>
+
+        <div id="semaforo">
+            🔴 <span id="timer">--</span> segundos
+        </div>
+
+        <div id="botoesContainer"></div>
+        <button id="btnAvancar" class="btn avancar hidden" onclick="avancarSlide()">➡️ Avançar</button>
+    </div>
+
+    <!-- Tela Final -->
+    <div id="telaFinal" class="container hidden">
+        <h2>🎉 Teste Concluído!</h2>
+        <p id="resultadoFinal"></p>
+        <button class="btn reiniciar" onclick="reiniciarTeste()">🔄 Refazer Teste</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
