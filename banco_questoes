@@ -1,0 +1,36 @@
+{
+  "memoria": {
+    "facil": [
+      {
+        "id": 1,
+        "fase": 1,
+        "enunciado": "📚 Memorize esta frase: 'O sol nasce no leste'.",
+        "tempo_leitura": 30,
+        "tipo": "leitura"
+      },
+      {
+        "id": 1,
+        "fase": 2,
+        "enunciado": "O sol nasce em qual direção?",
+        "opcoes": ["Norte", "Sul", "Leste", "Oeste", "Noroeste"],
+        "resposta": "Leste",
+        "tempo_resposta": 45
+      },
+      {
+        "id": 2,
+        "fase": 1,
+        "enunciado": "🔢 Memorize este número: 4792",
+        "tempo_leitura": 30,
+        "tipo": "leitura"
+      },
+      {
+        "id": 2,
+        "fase": 2,
+        "enunciado": "Qual sequência numérica você memorizou?",
+        "opcoes": ["1234", "9876", "6543", "4792", "5621"],
+        "resposta": "4792",
+        "tempo_resposta": 45
+      }
+    ]
+  }
+}
